@@ -17,3 +17,8 @@ Then use ```conda activate age-estimator``` in your terminal to activate dedicat
 
 Now you can follow [this tutroial](https://www.thepythoncode.com/article/predict-age-using-opencv) to play around.
 You don't need to install any packages, all packages are provided within env.yml
+
+# Test with UTKFace
+
+Now we can test the pre-trained model with downloaded UTKFace images.
+In your terminal with activated conda environment, you can use ```python predict_age.py '/archive/utkface_aligned_cropped/crop_part1/20_0_0_20170104020603909.jpg.chip.jpg'``` to test the model with pre-trained model.
